@@ -1,0 +1,12 @@
+[project]
+name = "mini-thinca-server"
+version = "0.1.0"
+description = "Python port of miniThincaServer"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+vfd = ["pyserial>=3.5"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
